@@ -1,0 +1,35 @@
+{
+  "name": "elm-spa-auth-example",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "ace-css": "1.1",
+    "css-loader": "^0.26.1",
+    "elm-local-storage-ports": "^0.3.0",
+    "elm-webpack-loader": "^4.2.0",
+    "file-loader": "^0.10.0",
+    "font-awesome": "4",
+    "foreman": "^2.0.0",
+    "json-server": "0.9.5",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack -p",
+    "client": "webpack-dev-server --port 3000",
+    "start": "webpack-dev-server --hot --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Maxim Pobegaylo",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
